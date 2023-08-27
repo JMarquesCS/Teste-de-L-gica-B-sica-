@@ -12,6 +12,6 @@ for ($i = 1; $i <= 50; $i++) {
         echo $i; // Imprime o número se não for múltiplo de 3 ou 5
     }
 
-    echo "\n"; // Pula para a próxima linha
+    echo "\n"; 
 }
 ?>
