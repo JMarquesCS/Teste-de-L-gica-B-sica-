@@ -16,14 +16,13 @@ for ($i = 1; $i <= 40; $i++) {
         echo ", ";
     }
 
-    // Calcula o próximo número da sequência
+
     $next = $first + $second;
 
-    // Atualiza os valores dos dois últimos números
+
     $first = $second;
     $second = $next;
 }
 
-// Pula para a próxima linha após imprimir a sequência
 echo "\n";
 ?>
